@@ -1,0 +1,27 @@
+{
+  "name": "learn-react",
+  "version": "0.0.1",
+  "description": "ADI React workshop",
+  "main": "app.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "build": "webpack --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Zeng <kevin@adicu.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "webpack": "^1.14.0"
+  }
+}
