@@ -4,6 +4,8 @@ import {default as ReactDOM} from "react-dom";
 /* backend for chat application */
 const URI = 'https://adi-learn-react.herokuapp.com';
 
+const socket = io(URI);
+
 class Messages extends Component {
     constructor(props) {
         super(props);
